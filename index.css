@@ -6,10 +6,9 @@ body {
 
 .container {
     display: flex;
+    zoom: 200%;
     flex-direction: column;
-    /* Coloca los elementos en columna */
     align-items: center;
-    /* Centra todos los elementos horizontalmente */
     border: 5px solid black;
     margin: auto;
     margin-top: 20px;
@@ -20,13 +19,11 @@ body {
     text-align: center;
 }
 
-/* Scoreboard para alinear los contadores en una fila */
 .scoreboard {
     display: flex;
     justify-content: space-around;
     width: 100%;
     margin-bottom: 10px;
-    /* Espacio debajo del scoreboard */
 }
 
 .counter {
