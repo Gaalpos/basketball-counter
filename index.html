@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="scoreboard">
+            <div>
+                <h3 class="header">HOME</h3>
+                <div class="counter">
+                    <p id="homeCounter">0</p>
+                </div>
+                <button onclick="addH1()" class="button">+1</button>
+                <button onclick="addH2()" class="button">+2</button>
+                <button onclick="addH3()" class="button">+3</button>
+            </div>
+
+            <div>
+                <h3 class="header">GUEST</h3>
+                <div class="counter">
+                    <p id="guestCounter">0</p>
+                </div>
+                <button onclick="addG1()" class="button">+1</button>
+                <button onclick="addG2()" class="button">+2</button>
+                <button onclick="addG3()" class="button">+3</button>
+            </div>
+        </div>
+
+        <button class="new-match-button" onclick="reset()">New match</button>
+
+        <div class="winnersList" id="winnersList">
+            <h2>Winners</h2>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
